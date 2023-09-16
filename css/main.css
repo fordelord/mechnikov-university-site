@@ -118,3 +118,40 @@ header .container button {
   height: 30px;
   width: 177px;
 }
+
+.result {
+  margin: 128px 0;
+}
+
+.result .container {
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+}
+
+.result .container .result_block {
+  display: grid;
+  gap: 27px;
+}
+
+.result .container .result_block .result_header {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 51px;
+}
+
+.result .container .result_block .result_text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.result .container .result_block .result_active {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=draft.min.css.map */
