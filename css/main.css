@@ -5,13 +5,13 @@
 *:after {
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
-  color: black;
 }
 
 html {
   font-size: 16px;
   font-weight: 400;
   height: 100%;
+  color: black;
 }
 
 html,
@@ -117,4 +117,94 @@ header .container .contact img {
 header .container button {
   height: 30px;
   width: 177px;
+}
+
+/*footer =======================================================*/
+
+footer {
+  background: black;
+  color: white;
+}
+
+footer .inner {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 54px;
+}
+
+footer .inner .inner-information {
+  max-width: 224px;
+}
+
+footer .inner .inner-information .inner-information-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #616161;
+}
+
+footer .inner .inner-information .inner-information-text {
+  font: 13px/22px "Inter";
+  color: #787878;
+  margin: 15px 0;
+}
+
+footer .inner .inner-information .inner-information-link {
+  font: 13px/22px "Inter";
+}
+
+footer .inner .inner-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 88px;
+  margin: 0 108px 0 88px;
+}
+
+footer .inner .inner-wrapper .inner-wrapper-list {
+  padding: 0;
+  margin: 0;
+}
+
+footer .inner .inner-contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+footer .inner .inner-contacts .inner-contacts-number {
+  line-height: 22px;
+  letter-spacing: 0.16px;
+}
+
+footer .inner .inner-contacts .inner-contacts-text {
+  font: 13px/22px "Inter";
+  margin: 13px 0 0;
+}
+
+footer .inner .inner-contacts .inner-contacts-references {
+  display: flex;
+  gap: 16px;
+  margin-top: auto;
+}
+
+footer .wrapper {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+footer .wrapper .wrapper-study_link {
+  display: inline-block;
+  font: 600 22px/32px "Inter";
+  position: relative;
+}
+
+footer .wrapper .wrapper-study_link::after {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  background-color: #00d15d;
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  left: calc(100% + 13px);
+  transform: translateY(-50%);
+  cursor: auto;
 }
