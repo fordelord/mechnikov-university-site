@@ -118,3 +118,28 @@ header .container button {
   height: 30px;
   width: 177px;
 }
+
+/*companies =======================================================*/
+.companies {
+  margin-top: 64px;
+  padding: 20px;
+  border-top: 1px solid #dfdfde;
+  border-bottom: 1px solid #dfdfde;
+}
+
+.companies .container {
+  padding: 0;
+}
+
+.companies .container .companies-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  padding: 36px 0 46px;
+}
+
+.companies .container .companies-inner img {
+  width: 200px;
+  height: 82px;
+  object-fit: cover;
+}
