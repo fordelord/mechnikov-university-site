@@ -63,7 +63,7 @@ button {
   padding: 0 12px;
 }
 
-.container {
+.container, .result_greed  {
   margin-right: auto;
   margin-left: auto;
   padding-left: 100px;
@@ -124,14 +124,6 @@ header .container button {
 }
 
 .result .result_greed {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  overflow: hidden;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: hidden;
   display: grid;
   justify-content: space-between;
   grid-template-columns: auto auto;
