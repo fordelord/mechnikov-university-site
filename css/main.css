@@ -144,10 +144,11 @@ header .container button {
 
 .direction .direction_block .direction_list {
     padding: 0;
-    list-style-type: disc;
+
 }
 
 .direction .direction_block .direction_list .direction_item {
+    list-style: disc;
     font-size: 14px;
     line-height: 28px;
     letter-spacing: 0.04px;
@@ -199,7 +200,7 @@ header .container button {
 
 .card .card_grid .card_column {
     display: grid;
-
+    align-items: end;
 }
 
 .card_1 {
