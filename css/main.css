@@ -123,7 +123,12 @@ header .container button {
   margin: 128px 0;
 }
 
-.result .container {
+.result .result_greed {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  overflow: hidden;
   margin-right: auto;
   margin-left: auto;
   overflow: hidden;
@@ -132,26 +137,22 @@ header .container button {
   grid-template-columns: auto auto;
 }
 
-.result .container .result_block {
+.result .result_greed .result_block {
+  font-size: 22px;
   display: grid;
   gap: 27px;
 }
 
-.result .container .result_block .result_header {
+.result .result_greed .result_block .result_header {
   font-size: 44px;
   font-weight: 700;
   line-height: 51px;
 }
 
-.result .container .result_block .result_text {
-  font-size: 22px;
-  font-weight: 400;
+.result .result_greed .result_block .result_text {
   line-height: 40px;
 }
 
-.result .container .result_block .result_active {
-  font-size: 22px;
+.result .result_greed .result_block .result_active {
   font-weight: 600;
 }
-
-/*# sourceMappingURL=draft.min.css.map */
