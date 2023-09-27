@@ -1,3 +1,3 @@
 # mechnikov-university-site
 
-Demo readme 
+Demo readme
