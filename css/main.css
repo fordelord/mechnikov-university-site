@@ -124,6 +124,7 @@ header .container button {
 footer {
     background: black;
     color: white;
+    font-family: "Inter";
 }
 
 footer .inner {
@@ -134,21 +135,19 @@ footer .inner {
 
 footer .inner .inner-information {
     max-width: 224px;
+    font-size: 13px;
+    line-height: 22px;
 }
 
 footer .inner .inner-information .inner-information-title {
     font-size: 24px;
+    line-height: 28px;
     font-weight: 800;
 }
 
 footer .inner .inner-information .inner-information-text {
-    font: 13px/22px "Inter";
     color: #787878;
     margin: 15px 0;
-}
-
-footer .inner .inner-information .inner-information-link {
-    font: 13px/22px "Inter";
 }
 
 footer .inner .inner-wrapper {
@@ -166,15 +165,15 @@ footer .inner .inner-wrapper .inner-wrapper-list {
 footer .inner .inner-contacts {
     display: flex;
     flex-direction: column;
+    line-height: 22px;
 }
 
 footer .inner .inner-contacts .inner-contacts-number {
-    line-height: 22px;
     letter-spacing: 0.16px;
 }
 
 footer .inner .inner-contacts .inner-contacts-text {
-    font: 13px/22px "Inter";
+    font-size: 13px;
     margin: 13px 0 0;
 }
 
@@ -191,7 +190,7 @@ footer .wrapper {
 
 footer .wrapper .wrapper-study_link {
     display: inline-block;
-    font: 600 22px/32px "Inter";
+    font: 600 22px/32px;
     position: relative;
 }
 
