@@ -235,6 +235,7 @@ header .container button {
 .education-section .form .form-body .form-body-items {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 20px;
     gap: 7px;
 }
 
