@@ -108,6 +108,45 @@ header .container button {
     width: 177px;
 }
 
+/*companies =======================================================*/
+.companies {
+    margin-top: 64px;
+    padding: 20px;
+    border-top: 1px solid #dfdfde;
+    border-bottom: 1px solid #dfdfde;
+}
+
+.companies .container {
+    padding: 0;
+}
+
+.companies .container .companies-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 36px 0 46px;
+
+    @media screen and (max-width: 1160px) {
+        overflow-x: auto;
+    }
+}
+
+.companies .container .companies-inner img {
+    width: 200px;
+    height: 82px;
+    object-fit: contain;
+
+    @media screen and (max-width: 1360px) {
+        width: 150px;
+        height: 72px;
+    }
+}
+
+.companies .container .companies-inner .companies-inner-link-education,
+.companies .container .companies-inner .companies-inner-link-contact {
+    width: 200px;
+    object-fit: cover;
+}
 /*education section =======================================================*/
 
 .education-section {
