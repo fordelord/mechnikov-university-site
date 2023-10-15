@@ -71,6 +71,43 @@ header {
     height: 40px;
 }
 
+header .header_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+header .header_links .title {
+    flex: 1;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+header .header_links .references {
+    display: flex;
+    gap: 16px;
+}
+
+header .header_links .contact {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.16px;
+}
+
+header .header_links .contact img {
+    margin-right: 8px;
+}
+
+header .header_links button {
+    height: 30px;
+    width: 177px;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -503,4 +540,37 @@ footer .wrapper .wrapper-study_link::after {
     left: calc(100% + 13px);
     transform: translateY(-50%);
     cursor: auto;
+}
+
+/*result section =======================================================*/
+
+.result {
+    margin-top: 129px;
+}
+
+.result_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.result_header {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 51px;
+}
+
+.result_text {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.result_active {
+    font-size: 22px;
+    font-weight: 600;
 }
