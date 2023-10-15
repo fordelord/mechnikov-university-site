@@ -280,243 +280,247 @@ header .container button {
 
 .companies .container .companies-inner .i1 {
     animation-name: companies-animation1;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 @keyframes companies-animation1 {
 
-    20% {
-        transform: translateX(250px);
+    10% {
+        transform: translate(0px, 150px);
     }
 
-    30% {
-        transform: translateX(500px);
+    11% {
+        transform: translate(1245px, 150px);
     }
 
-    40% {
-        transform: translateX(750px);
+    21% {
+        transform: translateX(1245px);
     }
 
-    50% {
-        transform: translateX(1000px);
+    31% {
+        transform: translateX(995px);
     }
 
-    60% {
-        transform: translateX(1240px);
+    41% {
+        transform: translateX(745px);
     }
 
-    70% {
-        transform: translate(1240px, 150px);
+    51% {
+        transform: translateX(495px);
     }
 
-    75% {
-        transform: translate(0, 150px);
+    61% {
+        transform: translateX(245px);
     }
 
-    85% {
+    71% {
         transform: none;
     }
 }
 
 .companies .container .companies-inner .i2 {
     animation-name: companies-animation2;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 @keyframes companies-animation2 {
 
+    10% {
+        transform: translateX(-245px);
+    }
+
     20% {
-        transform: translateX(250px);
+        transform: translate(-245px, 150px);
     }
 
-    30% {
-        transform: translateX(500px);
+    21% {
+        transform: translate(995px, 150px);
     }
 
-    40% {
-        transform: translateX(750px);
+    31% {
+        transform: translateX(995px);
     }
 
-    50% {
-        transform: translateX(1000px);
+    41% {
+        transform: translateX(745px);
     }
 
-    60% {
-        transform: translate(1000px, 150px);
+    51% {
+        transform: translateX(495px);
     }
 
-    65% {
-        transform: translate(-250px, 150px);
+    61% {
+        transform: translateX(245px);
     }
 
-    75% {
-        transform: translateX(-250px);
-    }
-
-    85% {
+    71% {
         transform: none;
     }
 }
 
 .companies .container .companies-inner .i3 {
     animation-name: companies-animation3;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 @keyframes companies-animation3 {
 
+    10% {
+        transform: translateX(-245px);
+    }
+
     20% {
-        transform: translateX(250px);
+        transform: translateX(-495px);
     }
 
     30% {
-        transform: translateX(500px);
+        transform: translate(-495px, 150px);
     }
 
-    40% {
-        transform: translateX(750px);
+    31% {
+        transform: translate(745px, 150px);
     }
 
-    50% {
-        transform: translate(750px, 150px);
+    41% {
+        transform: translateX(745px);
     }
 
-    55% {
-        transform: translate(-500px, 150px);
+    51% {
+        transform: translateX(495px);
     }
 
-    65% {
-        transform: translateX(-500px);
+    61% {
+        transform: translateX(245px);
     }
 
-    75% {
-        transform: translateX(-250px);
-    }
-
-    85% {
+    71% {
         transform: none;
     }
 }
 
 .companies .container .companies-inner .i4 {
     animation-name: companies-animation4;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 @keyframes companies-animation4 {
 
+
+    10% {
+        transform: translateX(-245px);
+    }
+
     20% {
-        transform: translateX(250px);
+        transform: translateX(-495px);
     }
 
     30% {
-        transform: translateX(500px);
+        transform: translateX(-745px);
     }
 
     40% {
-        transform: translate(500px, 150px);
+        transform: translate(-745px, 150px);
     }
 
-    45% {
-        transform: translate(-750px, 150px);
+    41% {
+        transform: translate(495px, 150px);
     }
 
-    55% {
-        transform: translateX(-750px);
-    }
-    65% {
-        transform: translateX(-500px);
+    51% {
+        transform: translateX(495px);
     }
 
-    75% {
-        transform: translateX(-250px);
+    61% {
+        transform: translateX(245px);
     }
 
-    85% {
+    71% {
         transform: none;
     }
 }
 
 .companies .container .companies-inner .i5 {
     animation-name: companies-animation5;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 @keyframes companies-animation5 {
 
+    10% {
+        transform: translateX(-245px);
+    }
+
     20% {
-        transform: translateX(250px);
+        transform: translateX(-495px);
     }
 
     30% {
-        transform: translate(250px, 150px);
+        transform: translateX(-745px);
     }
 
-    35% {
-        transform: translate(-1000px, 150px);
-    }
-    
-    45% {
-        transform: translateX(-1000px);
+    40% {
+        transform: translateX(-995px);
     }
 
-    55% {
-        transform: translateX(-750px);
-    }
-    65% {
-        transform: translateX(-500px);
+    50% {
+        transform: translate(-995px, 150px);
     }
 
-    75% {
-        transform: translateX(-250px);
+    51% {
+        transform: translate(245px, 150px);
     }
 
-    85% {
+    61% {
+        transform: translateX(245px);
+    }
+
+    71% {
         transform: none;
     }
 }
 
 .companies .container .companies-inner .i6 {
     animation-name: companies-animation6;
-    animation-duration: 30s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
 }
 
 @keyframes companies-animation6 {
 
     10% {
-        transform: translate(0, 150px);
+        transform: translateX(-245px);
     }
 
-    25% {
+    20% {
+        transform: translateX(-495px);
+    }
+
+    30% {
+        transform: translateX(-745px);
+    }
+
+    40% {
+        transform: translateX(-995px);
+    }
+
+    50% {
+        transform: translateX(-1240px);
+    }
+
+    60% {
         transform: translate(-1240px, 150px);
     }
 
-    35% {
-        transform: translateX(-1240px);
-    }
-    
-    45% {
-        transform: translateX(-1000px);
+    61% {
+        transform: translate(0, 150px);
     }
 
-    55% {
-        transform: translateX(-750px);
-    }
-    65% {
-        transform: translateX(-500px);
-    }
-
-    75% {
-        transform: translateX(-250px);
-    }
-
-    85% {
+    71% {
         transform: none;
     }
 }
