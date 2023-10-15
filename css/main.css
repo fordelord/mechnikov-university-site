@@ -553,6 +553,12 @@ footer .wrapper .wrapper-study_link::after {
     justify-content: space-between;
 }
 
+.result-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .result_header {
     font-weight: 700;
     font-size: 44px;
