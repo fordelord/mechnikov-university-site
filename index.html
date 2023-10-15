@@ -1,61 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mehcnikov site</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
-  <body class="container">
-    <header>
-      <div class="header_links">
-        <div class="title">Computer science</div>
-        <div class="references">
-          <a href="#">
-            <img width="36" height="36" src="./img/vk.png" alt="telegramm" />
-          </a>
-          <a href="#"
-            ><img
-              width="36"
-              height="36"
-              src="./img/instagram.png"
-              alt="instagram"
-          /></a>
-          <a href="#"
-            ><img
-              width="36"
-              height="36"
-              src="./img/whatsapp.png"
-              alt="whatsapp"
-          /></a>
-        </div>
-        <div class="contact">
-          <img width="36" height="36" src="./img/logo.jpeg" alt="logo" />
-          <a href="tel:+380672907909" class="contact-number"
-            >+380 (67) 290 79 09</a
-          >
-        </div>
-        <button>Подати документи</button>
-      </div>
-    </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mehcnikov site</title>
+        <link rel="stylesheet" href="./css/reset.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="title">Computer science</div>
+                <div class="references">
+                    <a href="#">
+                        <img
+                            width="36"
+                            height="36"
+                            src="./img/telegram.svg"
+                            alt="telegramm"
+                        />
+                    </a>
+                    <a href="#"
+                        ><img
+                            width="36"
+                            height="36"
+                            src="./img/instagram.svg"
+                            alt="instagram"
+                    /></a>
+                    <a href="#"
+                        ><img
+                            width="36"
+                            height="36"
+                            src="./img/whatsapp.svg"
+                            alt="whatsapp"
+                    /></a>
+                </div>
+                <div class="contact">
+                    <img
+                        width="36"
+                        height="36"
+                        src="./img/logo.jpeg"
+                        alt="logo"
+                    />
+                    <a href="tel:+380672907909" class="contact-number"
+                        >+380 (67) 290 79 09</a
+                    >
+                </div>
+                <button>Подати документи</button>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="education-section">
+                    <div class="info">
+                        <div class="info-container">
+                            <div class="info-container-title">
+                                Навчання онлайн у університеті ім. Мечникова
+                            </div>
+                            <div class="info-container-description">
+                                Мы — единая приёмная комиссия вузов и колледжей
+                                по дистанционным программам <br />
+                                обучения
+                            </div>
+                            <div class="info-container-list">
+                                <ul>
+                                    <li>от 12 500 ₽ семестр</li>
+                                    <li>от 2,5 лет</li>
+                                    <li>100% онлайн</li>
+                                </ul>
+                            </div>
 
-    <section class="result">
-      <div class="result_block">
-        <div class="result_header">
-          You will receive a state-issued <br />
-          diploma
-        </div>
-        <span class="result_text">
-          All our partner educational institutions <br />
-          have state accreditation, and the diplomas <br />
-          are entered into the federal register
-        </span>
-        <div class="result_active">
-          <div class="result_active_1st">Higher education</div>
-        </div>
-      </div>
-      <img src="img/image-4.png" alt="result" class="result_img" />
-    </section>
-  </body>
+                            <div class="info-container-logo">
+                                <img
+                                    src="./img/mechikov-university.png"
+                                    alt="mechnikov-university"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <form class="form">
+                        <div class="form-steps">
+                            <span class="active-step"></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="form-header">
+                            <div class="form-header-title">
+                                Підібрати навчання
+                            </div>
+                            <div class="form-header-number">1/3</div>
+                        </div>
+                        <div class="form-body">
+                            <div class="form-body-title">
+                                Яке в вас навчання?
+                            </div>
+                            <ul class="form-body-items">
+                                <li class="active-item">Я просто геній 😎</li>
+                                <li>9 класів</li>
+                                <li>11 класів</li>
+                                <li>Університет</li>
+                                <li>Коледж</li>
+                                <li>Інший захід</li>
+                                <li>Техникум</li>
+                                <li>Незакінченне вище</li>
+                                <li>Вище</li>
+                            </ul>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit">Подати заяву</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="companies">
+            <div class="container">
+                <div class="companies-inner">
+                    <a
+                        href="https://mon.gov.ua/ua"
+                        target="_blank"
+                        class="companies-inner-link"
+                    >
+                        <img
+                            src="img/ministry-education.png"
+                            alt="Ministry of Education and Science"
+                            class="companies-inner-link-education img"
+                        />
+                    </a>
+                    <a
+                        href="https://www.ugr.es/en"
+                        target="_blank"
+                        class="companies-inner-link"
+                    >
+                        <img
+                            src="img/de-granada-Logo.png"
+                            alt="De Granada"
+                            class="companies-inner-link-granada img"
+                        />
+                    </a>
+                    <a
+                        href="https://lpnu.ua/"
+                        target="_blank"
+                        class="companies-inner-link"
+                    >
+                        <img
+                            src="img/Lviv-university.jpg"
+                            alt="Government Contact Center"
+                            class="companies-inner-link-Lviv_university img"
+                        />
+                    </a>
+                    <a
+                        href="https://www.tu.berlin/"
+                        target="_blank"
+                        class="companies-inner-link"
+                    >
+                        <img
+                            src="img/berlin-techishe.jpg"
+                            alt="Berlin Techishe"
+                            class="companies-inner-link-berlin img"
+                        />
+                    </a>
+                    <a
+                        href="https://www.dnu.dp.ua/"
+                        target="_blank"
+                        class="companies-inner-link"
+                    >
+                        <img
+                            src="img/Dnipr_University.png"
+                            alt="Government Contact Center"
+                            class="companies-inner-link-Dnipr_University img"
+                        />
+                    </a>
+                    <a
+                        href="https://ukc.gov.ua/"
+                        target="_blank"
+                        class="companies-inner-link"
+                    >
+                        <img
+                            src="img/contact-center.png"
+                            alt="Government Contact Center"
+                            class="companies-inner-link-contact img"
+                        />
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="direction">
+            <div class="container">
+                <div class="direction_header">Directions</div>
+                <div class="direction_active">Higher</div>
+                <div class="direction_block">
+                    <div class="card card_1">
+                        <div class="card_header">Tourism</div>
+                        <div class="card_grid">
+                            <div class="card_column">
+                                <ul class="direction_list">
+                                    <li class="direction_item">
+                                        from 12,500 ₴ semester
+                                    </li>
+                                    <li class="direction_item">
+                                        from 2.5 years
+                                    </li>
+                                </ul>
+                                <button class="card_btn">consultation</button>
+                            </div>
+                            <img
+                                src="img/tourism.svg"
+                                alt="tourism"
+                                class="card_icon"
+                            />
+                        </div>
+                    </div>
+                    <div class="card card_2">
+                        <div class="card_header">Jurisprudence</div>
+                        <div class="card_grid">
+                            <div class="card_column">
+                                <ul class="direction_list">
+                                    <li class="direction_item">
+                                        from 12,500 ₴ semester
+                                    </li>
+                                    <li class="direction_item">
+                                        from 2.5 years
+                                    </li>
+                                </ul>
+                                <button class="card_btn">consultation</button>
+                            </div>
+                            <img
+                                src="img/Jurisprudence.svg"
+                                alt="Jurisprudence"
+                                class="card_icon"
+                            />
+                        </div>
+                    </div>
+                    <div class="card card_3">
+                        <div class="card_header">Economy</div>
+                        <div class="card_grid">
+                            <div class="card_column">
+                                <ul class="direction_list">
+                                    <li class="direction_item">
+                                        from 12,500 ₴ semester
+                                    </li>
+                                    <li class="direction_item">
+                                        from 2.5 years
+                                    </li>
+                                </ul>
+                                <button class="card_btn">consultation</button>
+                            </div>
+                            <img
+                                src="img/Economy.svg"
+                                alt="Economy"
+                                class="card_icon"
+                            />
+                        </div>
+                    </div>
+                    <div class="card card_4">
+                        <div class="card_header">Journalism</div>
+                        <div class="card_grid">
+                            <div class="card_column">
+                                <ul class="direction_list">
+                                    <li class="direction_item">
+                                        from 12,500 ₴ semester
+                                    </li>
+                                    <li class="direction_item">
+                                        from 2.5 years
+                                    </li>
+                                </ul>
+                                <button class="card_btn">consultation</button>
+                            </div>
+                            <img
+                                src="img/Journalism.svg"
+                                alt="Journalism"
+                                class="card_icon"
+                            />
+                        </div>
+                    </div>
+                    <div class="card card_5">
+                        <div class="card_header">Medical optics</div>
+                        <div class="card_grid">
+                            <div class="card_column">
+                                <ul class="direction_list">
+                                    <li class="direction_item">
+                                        from 12,500 ₴ semester
+                                    </li>
+                                    <li class="direction_item">
+                                        from 2.5 years
+                                    </li>
+                                </ul>
+                                <button class="card_btn">consultation</button>
+                            </div>
+                            <img
+                                src="img/Medical_optics.svg"
+                                alt="Medical_optics"
+                                class="card_icon"
+                            />
+                        </div>
+                    </div>
+                    <div class="card card_6">
+                        <div class="card_header">
+                            Advertising and communications with the public
+                        </div>
+                        <div class="card_grid">
+                            <div class="card_column">
+                                <ul class="direction_list">
+                                    <li class="direction_item">
+                                        from 12,500 ₴ semester
+                                    </li>
+                                    <li class="direction_item">
+                                        from 2.5 years
+                                    </li>
+                                </ul>
+                                <button class="card_btn">consultation</button>
+                            </div>
+                            <img
+                                src="img/communications.svg"
+                                alt="communications"
+                                class="card_icon"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="result">
+            <div class="container">
+                <div class="result_block">
+                    <div>
+                        <div class="result_header">
+                            You will receive a state-issued <br />
+                            diploma
+                        </div>
+                        <span class="result_text">
+                            All our partner educational institutions <br />
+                            have state accreditation, and the diplomas <br />
+                            are entered into the federal register
+                        </span>
+                        <div class="result_active">
+                            <div class="result_active_1st">
+                                Higher education
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        src="img/image-4.png"
+                        alt="result"
+                        class="result_img"
+                    />
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="inner">
+                    <div class="inner-information">
+                        <div class="inner-information-title">
+                            Computer science
+                        </div>
+                        <p class="inner-information-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Eaque, saepe.
+                        </p>
+                        <a href="#" class="inner-information-link">
+                            Політика конфіденційності</a
+                        >
+                    </div>
+                    <div class="inner-wrapper">
+                        <ul class="inner-wrapper-list">
+                            <li class="inner-wrapper-list-item">
+                                <a href="#" class="inner-wrapper-list-item-link"
+                                    >Напрями</a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="inner-wrapper-list">
+                            <li class="inner-wrapper-list-item">
+                                <a href="#" class="inner-wrapper-list-item-link"
+                                    >Як вступити</a
+                                >
+                            </li>
+                        </ul>
+                        <ul class="inner-wrapper-list">
+                            <li class="inner-wrapper-list-item">
+                                <a href="#" class="inner-wrapper-list-item-link"
+                                    >Партнерам</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="inner-contacts">
+                        <a
+                            href="tel:+380672907909"
+                            class="inner-contacts-number"
+                            >+380 (67) 290 79 09</a
+                        >
+                        <p class="inner-contacts-text">
+                            Робочий час:<br />Пн — Пт з 8:00 до 18:00
+                        </p>
+                        <div class="inner-contacts-references">
+                            <a href="#">
+                                <img
+                                    width="36"
+                                    height="36"
+                                    src="./img/telegram.svg"
+                                    alt="telegramm"
+                                />
+                            </a>
+                            <a href="#"
+                                ><img
+                                    width="36"
+                                    height="36"
+                                    src="./img/instagram.svg"
+                                    alt="instagram"
+                            /></a>
+                            <a href="#"
+                                ><img
+                                    width="36"
+                                    height="36"
+                                    src="./img/whatsapp.svg"
+                                    alt="whatsapp"
+                            /></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <a href="#" class="wrapper-study_link"
+                        >Підібрати навчання</a
+                    >
+                </div>
+            </div>
+        </footer>
+    </body>
+    >>>>>>> main
 </html>
