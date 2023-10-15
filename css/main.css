@@ -111,7 +111,7 @@ header .container button {
 /* direction section =======================================================*/
 
 .direction {
-    padding: 128px 0 129px 0;
+    margin-top: 50px;
 }
 
 .direction .direction_header {
@@ -214,7 +214,10 @@ header .container button {
 
 .card_6 {
     background: url(../img/direct_bg_6.png) center center/cover no-repeat;
+}
+
 /*companies =======================================================*/
+
 .companies {
     margin-top: 64px;
     padding: 20px;
