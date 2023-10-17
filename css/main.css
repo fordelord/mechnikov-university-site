@@ -287,36 +287,45 @@ header .container button {
 @keyframes companies-animation1 {
 
     10% {
-        transform: translate(0px, 150px);
+        transform: translateX(-124%);
     }
 
     11% {
-        transform: translate(1245px, 150px);
+        transform: translate(-124%, 300%);
     }
 
-    21% {
-        transform: translateX(1245px);
+    12% {
+        transform: translate(744%, 300%);
     }
 
-    31% {
-        transform: translateX(995px);
+    13% {
+        transform: translateX(744%);
     }
 
-    41% {
-        transform: translateX(745px);
+    23% {
+        transform: translateX(620%);
     }
 
-    51% {
-        transform: translateX(495px);
+    33% {
+        transform: translateX(496%);
     }
 
-    61% {
-        transform: translateX(245px);
+    43% {
+        transform: translateX(372%);
     }
 
-    71% {
+    53% {
+        transform: translateX(248%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    73% {
         transform: none;
     }
+
 }
 
 .companies .container .companies-inner .i2 {
@@ -328,34 +337,42 @@ header .container button {
 @keyframes companies-animation2 {
 
     10% {
-        transform: translateX(-245px);
+        transform: translateX(-124%);
     }
 
     20% {
-        transform: translate(-245px, 150px);
+        transform: translateX(-248%);
     }
 
     21% {
-        transform: translate(995px, 150px);
+        transform: translate(-248%, 300%);
     }
 
-    31% {
-        transform: translateX(995px);
+    22% {
+        transform: translate(620%, 300%);
     }
 
-    41% {
-        transform: translateX(745px);
+    23% {
+        transform: translateX(620%);
     }
 
-    51% {
-        transform: translateX(495px);
+    33% {
+        transform: translateX(496%);
     }
 
-    61% {
-        transform: translateX(245px);
+    43% {
+        transform: translateX(372%);
     }
 
-    71% {
+    53% {
+        transform: translateX(248%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    73% {
         transform: none;
     }
 }
@@ -369,34 +386,42 @@ header .container button {
 @keyframes companies-animation3 {
 
     10% {
-        transform: translateX(-245px);
+        transform: translateX(-124%);
     }
 
     20% {
-        transform: translateX(-495px);
+        transform: translateX(-248%);
     }
 
     30% {
-        transform: translate(-495px, 150px);
+        transform: translateX(-372%);
     }
 
     31% {
-        transform: translate(745px, 150px);
+        transform: translate(-372%, 300%);
     }
 
-    41% {
-        transform: translateX(745px);
+    32% {
+        transform: translate(496%, 300%);
     }
 
-    51% {
-        transform: translateX(495px);
+    33% {
+        transform: translateX(496%);
     }
 
-    61% {
-        transform: translateX(245px);
+    43% {
+        transform: translateX(372%);
     }
 
-    71% {
+    53% {
+        transform: translateX(248%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    73% {
         transform: none;
     }
 }
@@ -409,36 +434,43 @@ header .container button {
 
 @keyframes companies-animation4 {
 
-
     10% {
-        transform: translateX(-245px);
+        transform: translateX(-124%);
     }
 
     20% {
-        transform: translateX(-495px);
+        transform: translateX(-248%);
     }
 
     30% {
-        transform: translateX(-745px);
+        transform: translateX(-372%);
     }
 
     40% {
-        transform: translate(-745px, 150px);
+        transform: translateX(-496%);
     }
 
     41% {
-        transform: translate(495px, 150px);
+        transform: translate(-496%, 300%);
     }
 
-    51% {
-        transform: translateX(495px);
+    42% {
+        transform: translate(372%, 300%);
     }
 
-    61% {
-        transform: translateX(245px);
+    43% {
+        transform: translateX(372%);
     }
 
-    71% {
+    53% {
+        transform: translateX(248%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    73% {
         transform: none;
     }
 }
@@ -452,34 +484,42 @@ header .container button {
 @keyframes companies-animation5 {
 
     10% {
-        transform: translateX(-245px);
+        transform: translateX(-124%);
     }
 
     20% {
-        transform: translateX(-495px);
+        transform: translateX(-248%);
     }
 
     30% {
-        transform: translateX(-745px);
+        transform: translateX(-372%);
     }
 
     40% {
-        transform: translateX(-995px);
+        transform: translateX(-496%);
     }
 
     50% {
-        transform: translate(-995px, 150px);
+        transform: translateX(-620%);
     }
 
     51% {
-        transform: translate(245px, 150px);
+        transform: translate(-620%, 300%);
     }
 
-    61% {
-        transform: translateX(245px);
+    52% {
+        transform: translate(248%, 300%);
     }
 
-    71% {
+    53% {
+        transform: translateX(248%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    73% {
         transform: none;
     }
 }
@@ -493,34 +533,42 @@ header .container button {
 @keyframes companies-animation6 {
 
     10% {
-        transform: translateX(-245px);
+        transform: translateX(-124%);
     }
 
     20% {
-        transform: translateX(-495px);
+        transform: translateX(-248%);
     }
 
     30% {
-        transform: translateX(-745px);
+        transform: translateX(-372%);
     }
 
     40% {
-        transform: translateX(-995px);
+        transform: translateX(-496%);
     }
 
     50% {
-        transform: translateX(-1240px);
+        transform: translateX(-620%);
     }
 
     60% {
-        transform: translate(-1240px, 150px);
+        transform: translateX(-744%);
     }
 
     61% {
-        transform: translate(0, 150px);
+        transform: translate(-744%, 300%);
     }
 
-    71% {
+    62% {
+        transform: translate(124%, 300%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    73% {
         transform: none;
     }
 }
