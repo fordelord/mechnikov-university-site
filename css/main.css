@@ -272,8 +272,304 @@ header .container button {
     gap: 20px;
     padding: 36px 0 46px;
 
+
     @media screen and (max-width: 1160px) {
         overflow-x: auto;
+    }
+}
+
+.companies .container .companies-inner .i1 {
+    animation-name: companies-animation1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes companies-animation1 {
+
+    10% {
+        transform: translateX(-124%);
+    }
+
+    11% {
+        transform: translate(-124%, 300%);
+    }
+
+    12% {
+        transform: translate(744%, 300%);
+    }
+
+    13% {
+        transform: translateX(744%);
+    }
+
+    20% {
+        transform: translateX(620%);
+    }
+
+    30% {
+        transform: translateX(496%);
+    }
+
+    40% {
+        transform: translateX(372%);
+    }
+
+    50% {
+        transform: translateX(248%);
+    }
+
+    60% {
+        transform: translateX(124%);
+    }
+
+    70% {
+        transform: none;
+    }
+
+}
+
+.companies .container .companies-inner .i2 {
+    animation-name: companies-animation2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes companies-animation2 {
+
+    10% {
+        transform: translateX(-124%);
+    }
+
+    20% {
+        transform: translateX(-248%);
+    }
+
+    21% {
+        transform: translate(-248%, 300%);
+    }
+
+    22% {
+        transform: translate(620%, 300%);
+    }
+
+    23% {
+        transform: translateX(620%);
+    }
+
+    30% {
+        transform: translateX(496%);
+    }
+
+    40% {
+        transform: translateX(372%);
+    }
+
+    50% {
+        transform: translateX(248%);
+    }
+
+    60% {
+        transform: translateX(124%);
+    }
+
+    70% {
+        transform: none;
+    }
+}
+
+.companies .container .companies-inner .i3 {
+    animation-name: companies-animation3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes companies-animation3 {
+
+    10% {
+        transform: translateX(-124%);
+    }
+
+    20% {
+        transform: translateX(-248%);
+    }
+
+    30% {
+        transform: translateX(-372%);
+    }
+
+    31% {
+        transform: translate(-372%, 300%);
+    }
+
+    32% {
+        transform: translate(496%, 300%);
+    }
+
+    33% {
+        transform: translateX(496%);
+    }
+
+    40% {
+        transform: translateX(372%);
+    }
+
+    50% {
+        transform: translateX(248%);
+    }
+
+    60% {
+        transform: translateX(124%);
+    }
+
+    70% {
+        transform: none;
+    }
+}
+
+.companies .container .companies-inner .i4 {
+    animation-name: companies-animation4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes companies-animation4 {
+
+    10% {
+        transform: translateX(-124%);
+    }
+
+    20% {
+        transform: translateX(-248%);
+    }
+
+    30% {
+        transform: translateX(-372%);
+    }
+
+    40% {
+        transform: translateX(-496%);
+    }
+
+    41% {
+        transform: translate(-496%, 300%);
+    }
+
+    42% {
+        transform: translate(372%, 300%);
+    }
+
+    43% {
+        transform: translateX(372%);
+    }
+
+    50% {
+        transform: translateX(248%);
+    }
+
+    60% {
+        transform: translateX(124%);
+    }
+
+    70% {
+        transform: none;
+    }
+}
+
+.companies .container .companies-inner .i5 {
+    animation-name: companies-animation5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes companies-animation5 {
+
+    10% {
+        transform: translateX(-124%);
+    }
+
+    20% {
+        transform: translateX(-248%);
+    }
+
+    30% {
+        transform: translateX(-372%);
+    }
+
+    40% {
+        transform: translateX(-496%);
+    }
+
+    50% {
+        transform: translateX(-620%);
+    }
+
+    51% {
+        transform: translate(-620%, 300%);
+    }
+
+    52% {
+        transform: translate(248%, 300%);
+    }
+
+    53% {
+        transform: translateX(248%);
+    }
+
+    60% {
+        transform: translateX(124%);
+    }
+
+    70% {
+        transform: none;
+    }
+}
+
+.companies .container .companies-inner .i6 {
+    animation-name: companies-animation6;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes companies-animation6 {
+
+    10% {
+        transform: translateX(-124%);
+    }
+
+    20% {
+        transform: translateX(-248%);
+    }
+
+    30% {
+        transform: translateX(-372%);
+    }
+
+    40% {
+        transform: translateX(-496%);
+    }
+
+    50% {
+        transform: translateX(-620%);
+    }
+
+    60% {
+        transform: translateX(-744%);
+    }
+
+    61% {
+        transform: translate(-744%, 300%);
+    }
+
+    62% {
+        transform: translate(124%, 300%);
+    }
+
+    63% {
+        transform: translateX(124%);
+    }
+
+    70% {
+        transform: none;
     }
 }
 
@@ -293,6 +589,7 @@ header .container button {
     width: 200px;
     object-fit: cover;
 }
+
 /*education section =======================================================*/
 
 .education-section {
@@ -312,8 +609,7 @@ header .container button {
 
 .education-section .info .info-container {
     padding: 40px;
-    background: url("./../img/noise-background.png") center center/cover
-        no-repeat;
+    background: url("./../img/noise-background.png") center center/cover no-repeat;
     min-width: 700px;
     height: 500px;
 }
