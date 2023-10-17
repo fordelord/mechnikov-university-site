@@ -302,27 +302,27 @@ header .container button {
         transform: translateX(744%);
     }
 
-    23% {
+    20% {
         transform: translateX(620%);
     }
 
-    33% {
+    30% {
         transform: translateX(496%);
     }
 
-    43% {
+    40% {
         transform: translateX(372%);
     }
 
-    53% {
+    50% {
         transform: translateX(248%);
     }
 
-    63% {
+    60% {
         transform: translateX(124%);
     }
 
-    73% {
+    70% {
         transform: none;
     }
 
@@ -356,23 +356,23 @@ header .container button {
         transform: translateX(620%);
     }
 
-    33% {
+    30% {
         transform: translateX(496%);
     }
 
-    43% {
+    40% {
         transform: translateX(372%);
     }
 
-    53% {
+    50% {
         transform: translateX(248%);
     }
 
-    63% {
+    60% {
         transform: translateX(124%);
     }
 
-    73% {
+    70% {
         transform: none;
     }
 }
@@ -409,19 +409,19 @@ header .container button {
         transform: translateX(496%);
     }
 
-    43% {
+    40% {
         transform: translateX(372%);
     }
 
-    53% {
+    50% {
         transform: translateX(248%);
     }
 
-    63% {
+    60% {
         transform: translateX(124%);
     }
 
-    73% {
+    70% {
         transform: none;
     }
 }
@@ -462,15 +462,15 @@ header .container button {
         transform: translateX(372%);
     }
 
-    53% {
+    50% {
         transform: translateX(248%);
     }
 
-    63% {
+    60% {
         transform: translateX(124%);
     }
 
-    73% {
+    70% {
         transform: none;
     }
 }
@@ -515,11 +515,11 @@ header .container button {
         transform: translateX(248%);
     }
 
-    63% {
+    60% {
         transform: translateX(124%);
     }
 
-    73% {
+    70% {
         transform: none;
     }
 }
@@ -568,7 +568,7 @@ header .container button {
         transform: translateX(124%);
     }
 
-    73% {
+    70% {
         transform: none;
     }
 }
