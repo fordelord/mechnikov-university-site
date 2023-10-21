@@ -277,6 +277,8 @@ header .container button {
     left: 0%;
     top: 0%;
     display: flex;
+    gap: 20px;
+    padding: 36px 0 46px;
     align-items: center;
     justify-content: space-around;
 
@@ -302,11 +304,11 @@ header .container button {
 }
 
 .scroller-primary {
-    animation: primary 5s linear infinite;
+    animation: primary 7s linear infinite;
 }
 
 .scroller-secondary {
-    animation: secondary 5s linear infinite;
+    animation: secondary 7s linear infinite;
 }
 
 @keyframes primary {
