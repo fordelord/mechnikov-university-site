@@ -263,14 +263,24 @@ header .container button {
 }
 
 .companies .container {
-    padding: 0;
+    position: relative;
+    width: 100vw;
+    height: 10rem;
+    padding: 2rem 0;
+    overflow-x: hidden;
 }
 
 .companies .container .companies-inner {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    left: 0%;
+    top: 0%;
     display: flex;
-    justify-content: space-between;
     gap: 20px;
     padding: 36px 0 46px;
+    align-items: center;
+    justify-content: space-around;
 
     @media screen and (max-width: 1160px) {
         overflow-x: auto;
@@ -288,10 +298,39 @@ header .container button {
     }
 }
 
-.companies .container .companies-inner .companies-inner-link-education,
 .companies .container .companies-inner .companies-inner-link-contact {
     width: 200px;
     object-fit: cover;
+}
+
+.scroller-primary {
+    animation: primary 7s linear infinite;
+}
+
+.scroller-secondary {
+    animation: secondary 7s linear infinite;
+}
+
+@keyframes primary {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -100%;
+    }
+}
+
+@keyframes secondary {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+.scroller:hover {
+    animation-play-state: paused;
 }
 /*education section =======================================================*/
 
